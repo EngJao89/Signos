@@ -48,16 +48,6 @@
 			path = Signos;
 			sourceTree = "<group>";
 		};
-		3494CC3D2CE818E600F2940A /* SignosTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SignosTests;
-			sourceTree = "<group>";
-		};
-		3494CC472CE818E600F2940A /* SignosUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SignosUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				3494CC262CE818E200F2940A /* Signos */,
-				3494CC3D2CE818E600F2940A /* SignosTests */,
-				3494CC472CE818E600F2940A /* SignosUITests */,
 				3494CC252CE818E200F2940A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +131,6 @@
 			dependencies = (
 				3494CC3C2CE818E600F2940A /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				3494CC3D2CE818E600F2940A /* SignosTests */,
-			);
 			name = SignosTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +150,6 @@
 			);
 			dependencies = (
 				3494CC462CE818E600F2940A /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				3494CC472CE818E600F2940A /* SignosUITests */,
 			);
 			name = SignosUITests;
 			packageProductDependencies = (
