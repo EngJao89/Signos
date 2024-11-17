@@ -63,6 +63,19 @@ class ViewController: UITableViewController {
         return celula
         
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        
+        let informacaoSigno = significados[ indexPath.row ]
+        let alerta: UIAlertController = UIAlertController(title: "Sobre seu signo", message: informacaoSigno , preferredStyle: .alert )
+        let confirmacaoAcao: UIAlertAction = UIAlertAction(title: "OK", style: .default , handler: nil )
+        alerta.addAction(confirmacaoAcao)
+        
+        present(alerta, animated: true, completion: nil )
+        
+        
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
